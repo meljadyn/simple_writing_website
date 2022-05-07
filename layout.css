@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "louis";
+    src: url("fonts/Louis-George-Cafe.ttf");
+  }
+
+@font-face {
+    font-family: "chapaza";
+    src: url("fonts/Chapaza.ttf")
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 10px 10px #c7c7c7;
+}
+
+.nav-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #a18276;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+
+}
+
+.logo-text {
+    font-family: chapaza;
+    font-size: 18px;
+    color: #736372;
+    font-weight: bold;
+}
+
+.page-content {
+    margin: 100px 20% 20px 20%;
+    border-radius: 20px;
+    padding: 5px 20px 10px 20px;
+    background: rgb(238, 238, 238);
+    font-family: louis;
+    font-size: 18px;
+}
+
+h1 {
+    background-color: #7a918d;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    font-family: "chapaza";
+    font-size: 32px;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: chapaza;
+    color: #736372;
+}
+
+fieldset {
+    text-align: center;
+}
+
+.svy-names {
+    overflow: hidden;/* Makes this div contain its floats */
+    padding: 0px 28%;
+}
+
+.col1, .col2 {
+    width: 49%;
+}
+
+.col1 {
+    float: left;
+}
+
+.col2 {
+    float: right;
+}
+
+.svy-names label {
+    display: block;
+}
+
+.long-text {
+    margin: 20px 0px;
+}
+
+button {
+    margin: 20px 0px;
+    font-family: louis;
+    font-size: 30px;
+    width:43%;
+    background-color: #736372;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mood-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1%;
+}
+
+.mood-entry {
+    text-align: center;
+    background-color: #a18276;
+    color: white;
+    border-radius:20px;
+    padding: 10px 0px;
+    box-shadow: 10px 10px 5px #c7c7c7;
+    margin-bottom: 25px;
+}
+
+.mood-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.simple_link {
+    color: #736372;
+}

@@ -1,0 +1,101 @@
+<!--
+Page 2 - character building form to build strong characters
+Navigation Bar linking to all 4 pages
+HTML form with a minimum of:
+1 fieldset
+3 inputs
+2 text
+1 checkbox
+1 textarea
+Appropriate labels for the above
+1 button
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Character Survey | Writing How-To's</title>
+    <link href="layout.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <div>
+        <img src="pencil.jpg" class="logo">
+        <span class="logo-text">Writing How-To's</span>
+      </div>
+      <a href="home.html" class="nav-link">Home</a>
+      <a href="characters.html" class="nav-link">Characters</a>
+      <a href="mood.html" class="nav-link">Mood</a>
+      <a href="resources.html" class="nav-link">Resources</a>
+    </nav>
+
+    <div class="page-content">
+      <h1>Character Survey</h1>
+      <p>
+        This will test your knowledge of your characters. I encourage you to use
+        this as a base for coming up with your own character surveys, as it can
+        be a greay way to ensure you're thinking deeply about your characters.
+      </p>
+
+      <fieldset>
+        <div class="svy-names">
+          <div class="col1">
+            <label>
+              First Name<br>
+              <input type="text" name="first-name" id="first-name">
+            </label>
+          </div>
+
+          <div class="col2">
+            <label>
+              Last Name<br>
+              <input type="text" name="last-name" id="last-name">
+            </label>
+          </div>
+
+        </div>
+
+        <div class="long-text">
+          <label>
+            Motivation<br>
+            <textarea name="motivation" id="motivation" rows="10" cols="45"></textarea>
+          </label>
+        </div>
+
+        <div class="long-text">
+          <label>
+            Strengths<br>
+            <textarea name="strengths" id="strengths" rows="10" cols="45"></textarea>
+          </label>
+        </div>
+
+        <div class="long-text">
+          <label>
+            Weaknesses<br>
+            <textarea name="weaknesses" id="weaknesses" rows="10" cols="45"></textarea>
+          </label>
+        </div>
+
+        <div>
+          <label>
+            Introvert
+            <input type="checkbox" name="introvert" id="introvert">
+          </label>
+
+          <label>
+            Extrovert
+            <input type="checkbox" name="extrovert" id="extrovert">
+          </label>
+        </div>
+
+        <button type="submit">Submit</button>
+
+      </fieldset>
+    </div>
+
+
+
+  </body>
+</html>
